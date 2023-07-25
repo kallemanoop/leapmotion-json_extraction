@@ -285,7 +285,7 @@ void draw() {
   }
   leapOnFrame();
   
-  if (millis() > timer + 2000){
+  if (millis() > timer + 2){
     Save();
     timer = millis();
     i += 1;
